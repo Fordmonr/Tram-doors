@@ -1,0 +1,23 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "MIT"
+
+[[mods]]
+modId = "tram_doors"
+version = "1.0.0"
+displayName = "Tram Doors"
+description = "A door that is three blocks tall."
+
+[[dependencies.tram_doors]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.tram_doors]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,1.21)"
+ordering = "NONE"
+side = "BOTH"

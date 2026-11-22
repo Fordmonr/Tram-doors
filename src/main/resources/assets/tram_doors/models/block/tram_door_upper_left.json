@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/door_top_left",
+  "textures": {
+    "top": "tram_doors:block/tram_door_upper"
+  }
+}
